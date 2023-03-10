@@ -1,7 +1,9 @@
 # UFO_Sightings
 
+![Project Aquarius](https://thinkaboutit.site/ufos/wp-content/uploads/sites/12/2012/12/54carpet.gif "Aquarius")
+
 The [NATIONAL UFO Reporting Center](https://nuforc.org/databank/) maintains an Online repository of all the UFO sightings which is currently limited to state of USA.
-There are four types of indexed datasets available :
+There are four types of indexed datasets available : <br>
 [Index by EVENT DATE](https://nuforc.org/webreports/ndxevent.html)  
 [Index by STATE](https://nuforc.org/webreports/ndxloc.html)  
 [Index by SHAPE OF UFO](https://nuforc.org/webreports/ndxshape.html)  
@@ -9,9 +11,14 @@ There are four types of indexed datasets available :
 
 This is a Hobby Project to get that data and visualize how it looks like :)
 
-# Files
+# Files & Folders
 
-
+> **ndxevent.py** : gets all events data
+> **ndxloc.py** : gets all location based data
+> **ndxshape.py** : data related to shape of the UFO
+> **scheduler.py** : Monthly/Weekly checker, that checks for updates on nuforc and updates
+> datacheck.py : data sanity checker / logger wip
+> **/data** : folder which has the initial version of the gathered data
 
 # Plan & Execution
 
