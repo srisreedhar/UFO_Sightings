@@ -15,11 +15,28 @@ This is a Hobby Project to get that data and visualize how it looks like :)
 
 # Plan & Execution
 
+graph TD
+A[nuforc.org DataBank ] -- Extract  --> B((Store Raw Files))
+A -- Transformed Data--> C(Transform)
+B --> J{Final Data Repository}
+C --> D[Events +]
+C --> E[States +]
+C --> F[Shapes +] 
+C --> H[Aggregations/KPIs]
+D  --> I((Final Transformed Data))
+E --> I
+F --> I
+H --> I
+I -- Load--> J
+J --> K(looker Studio)
 
 
 
-# Result Files
+
+
+![UFO](https://res.cloudinary.com/teepublic/image/private/s--L0c69ARe--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1592599322/production/designs/11490920_0.jpg "UFO")
 
 
 
-# Final Visualizations on DataStudio
+
+
