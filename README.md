@@ -13,12 +13,16 @@ This is a Hobby Project to get that data and visualize how it looks like :)
 
 # Files & Folders
 
-> **ndxevent.py** : gets all events data
-> **ndxloc.py** : gets all location based data
-> **ndxshape.py** : data related to shape of the UFO
-> **scheduler.py** : Monthly/Weekly checker, that checks for updates on nuforc and updates
-> datacheck.py : data sanity checker / logger wip
-> **/data** : folder which has the initial version of the gathered data
+-  **ndxevent.py** : gets all events data
+
+-  **ndxloc.py** : gets all location based data
+
+-  **ndxshape.py** : data related to shape of the UFO
+
+-  **scheduler.py** : Monthly/Weekly checker, that checks for updates on nuforc and updates `airflow-wip`
+- datacheck.py : data sanity checker / logger  `wip`
+
+-  **/data** : folder which has the initial version of the gathered data
 
 # Plan & Execution
 
