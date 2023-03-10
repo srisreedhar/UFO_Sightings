@@ -18,7 +18,7 @@ This is a Hobby Project to get that data and visualize how it looks like :)
 >I did not want to use the libraries like BeautifulSoup/lxml that makes my life simpler,I just want to write as many lines of raw code as possible to make this work.
 
 
-``` mermaid
+```mermaid
 graph TD
 A[nuforc.org DataBank ] -- Extract  --> B((Store Raw Files))
 A -- Transformed Data--> C(Transform)
