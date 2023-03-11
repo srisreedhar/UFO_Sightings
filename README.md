@@ -43,7 +43,7 @@ E --> I
 F --> I
 H --> I
 I -- Load--> J
-J --> K(looker Studio)
+J --> K(LookerStudio/Streamlit)
 
 ```
 
